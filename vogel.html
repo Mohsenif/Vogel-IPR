@@ -76,8 +76,8 @@
       }
 
       const trace = {
-        x: pwf_vals,
-        y: qo_vals,
+        x: qo_vals,
+        y: pwf_vals,
         type: 'scatter',
         mode: 'lines+markers',
         name: 'Vogel IPR Curve',
@@ -86,8 +86,8 @@
 
       const layout = {
         title: 'Vogel IPR Curve: Pwf vs Qo',
-        xaxis: { title: 'Pwf (psi)' },
-        yaxis: { title: 'Qo (STB/day)' },
+        xaxis: { title: 'Qo (STB/day)' },
+        yaxis: { title: 'Pwf (psi)' },
         margin: { t: 40 }
       };
 
